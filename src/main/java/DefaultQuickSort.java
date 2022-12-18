@@ -1,13 +1,6 @@
 public class DefaultQuickSort {
-    public static void main(String[] args) {
-        int[] array = new int[]{123, 1, 23, 12, 4, 54};
-        quickSort(array);
-        for (int a : array) {
-            System.out.println(a);
-        }
-    }
 
-    private static void quickSort(int[] array) {
+    static void quickSort(int[] array) {
         sort(array, 0, array.length);
     }
 
